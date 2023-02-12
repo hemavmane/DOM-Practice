@@ -1,0 +1,75 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    
+</head>
+<body>
+    <button class="w3School">js</button>
+    <div style="display:none ;background:linear-gradient(black,rgb(192, 255, 236)) ; ">
+        
+            <ul id="main" class="data">
+                <li>data 1</li>
+                <li>data 2</li>
+                <li>data 3</li>
+                <li>data 4</li>
+                <li>data 5</li>
+                <li>data 6</li>
+            </ul>
+    </div>
+    <script>
+
+let button = document.querySelector(".w3School")
+
+let div = document.querySelector("div")
+
+
+button.addEventListener("click",Myfunction)
+ function Myfunction(){
+
+    if(div.style.display=="none"){
+
+        div.style.display="block";
+
+    }else {
+
+        div.style.display="none"
+
+    }
+}
+
+</script>
+</body>
+</html>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
